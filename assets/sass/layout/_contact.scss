@@ -1,0 +1,110 @@
+/// IMPORTS ///
+@import "../libs/vars";
+/// //// ///
+
+// Contact //
+.contact {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+// First column -- Contact form //
+.contact-column1 {
+  min-width: 100%;
+  .form-control {
+    display: block;
+    width: 100%;
+    height: 3.4rem;
+    padding: 0.6rem 1.2rem;
+    font-size: 1.4rem;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s,
+      -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  }
+  .form-grey input,
+  .form-grey textarea {
+    background: #777777;
+    border: solid 1px #777777;
+    color: #fff;
+    border-radius: 0px;
+    width: auto;
+    min-width: 70%;
+    display: inline-block;
+    margin-bottom: 1.5rem;
+  }
+  .form-grey textarea {
+    min-width: 70%;
+    height: 20%;
+  }
+  .form-grey label {
+    width: auto;
+    min-width: 120px;
+    text-align: right;
+    vertical-align: top;
+    padding-right: 1.5rem;
+  }
+  label {
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+    font-size: 1.8rem;
+    font-family: "Raleway", sans-serif;
+  }
+  .input-contact {
+    margin-left: 12.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+  }
+  .button-red {
+    background: $primary-bg;
+    color: #fed100;
+    border: solid 1px $primary-color;
+    margin-left: 12.5rem;
+    padding: 1.5rem 2.5rem;
+    font-size: 30px;
+    font-weight: 900;
+    cursor: pointer;
+  }
+}
+
+// Second column -- Contact logo //
+.contact-column2 {
+  position: relative;
+  min-width: 90%;
+  text-align: center;
+  right: 7rem;
+  font-weight: 500;
+  .contact-links a {
+    display: flex;
+    flex-direction: column;
+    color: #000;
+    font-size: 1.8rem;
+    padding-top: 1rem;
+
+    &:nth-child(2) {
+      color: $primary-color;
+      text-decoration: underline;
+    }
+  }
+  .contact-logo {
+    width: 100%;
+    max-width: 29rem;
+  }
+  .contact-text {
+    margin-top: 4rem;
+  }
+  .mail-to {
+    margin-top: 4rem;
+  }
+}

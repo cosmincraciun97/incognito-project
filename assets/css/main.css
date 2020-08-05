@@ -1,0 +1,499 @@
+header {
+  background: #e00000;
+  height: 7.5rem;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+nav.container {
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  transform: translate(-9%, 0);
+  width: 900px;
+}
+
+nav .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  transform: translate(-40%, 5%);
+}
+
+nav .logo .brand {
+  padding: 1rem 1.5rem 0 1.5rem;
+}
+
+nav .logo .brand img {
+  height: 4.5rem;
+}
+
+nav .logo .pegas {
+  background: #e00000;
+  color: #fff;
+  border-radius: 0px 0px 20px 20px;
+  padding: 0.3rem 1.5rem;
+}
+
+nav .logo .pegas img {
+  height: 2.5rem;
+}
+
+nav .nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  position: relative;
+  bottom: 0.9rem;
+  right: 6rem;
+}
+
+nav .nav-links a {
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: italic;
+  padding-left: 3rem;
+}
+
+nav .nav-links a:first-child {
+  padding-left: 0;
+  font-weight: bold;
+}
+
+.banner .desktop-banner {
+  width: 100%;
+}
+
+.banner .mobile-banner {
+  display: none;
+}
+
+.about {
+  padding-top: 12.5rem;
+}
+
+.mobile-about {
+  display: none;
+}
+
+.bg-bike-phone {
+  background-image: url("/images/despre-ape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 10%;
+  width: 1196px;
+  height: 460px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.bg-bike-phone .h3-first {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  position: relative;
+  bottom: 18rem;
+}
+
+.bg-bike-phone .h3-second {
+  position: relative;
+  bottom: 17rem;
+  left: 1rem;
+}
+
+.bg-bike-phone .col-1 {
+  position: absolute;
+  width: 50%;
+  left: 2rem;
+  bottom: 66rem;
+  font-weight: 510;
+}
+
+.bg-bike-phone .col-2 {
+  position: absolute;
+  left: 81rem;
+  width: 48%;
+  bottom: 63.5rem;
+  font-weight: 510;
+}
+
+.banner-bcr {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  min-height: 275px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.banner-info {
+  margin-top: 1rem;
+}
+
+.info-mobile {
+  display: none;
+}
+
+.price-title {
+  padding-top: 4.5rem;
+}
+
+.mobile-price {
+  display: none;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 5rem;
+  left: 8rem;
+  width: 65%;
+}
+
+.call-to-action .hand-space-m {
+  line-height: 3rem;
+  width: 115%;
+  text-align: center;
+}
+
+.call-to-action .hand-space-m2 {
+  margin-bottom: 3rem;
+}
+
+.call-to-action h3 {
+  font-weight: 500;
+}
+
+.call-to-action h5 {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+  text-align: center;
+  padding-top: 1.5rem;
+  width: 120%;
+}
+
+.bg-descarca {
+  display: none;
+}
+
+.instructions .instructions-title {
+  padding-bottom: 2rem;
+  font-size: 2.5rem;
+  font-weight: 100;
+  color: #e00000;
+}
+
+.instructions .instructions-title span {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.slide {
+  padding-bottom: 5rem;
+}
+
+.slide .title-slide {
+  padding-top: 4.5rem;
+  font-weight: 100;
+  font-size: 2.5rem;
+}
+
+.contact {
+  display: flex;
+  padding-top: 2rem;
+  padding-bottom: 6rem;
+}
+
+.contact-column1 {
+  min-width: 100%;
+}
+
+.contact-column1 .form-control {
+  display: block;
+  width: 100%;
+  height: 3.4rem;
+  padding: 0.6rem 1.2rem;
+  font-size: 1.4rem;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.contact-column1 .form-grey input,
+.contact-column1 .form-grey textarea {
+  background: #777777;
+  border: solid 1px #777777;
+  color: #fff;
+  border-radius: 0px;
+  width: auto;
+  min-width: 70%;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.contact-column1 .form-grey textarea {
+  min-width: 70%;
+  height: 20%;
+}
+
+.contact-column1 .form-grey label {
+  width: auto;
+  min-width: 120px;
+  text-align: right;
+  vertical-align: top;
+  padding-right: 1.5rem;
+}
+
+.contact-column1 label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.contact-column1 .input-contact {
+  margin-left: 12.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+
+.contact-column1 .button-red {
+  background: #e00000;
+  color: #fed100;
+  border: solid 1px #e00000;
+  margin-left: 12.5rem;
+  padding: 1.5rem 2.5rem;
+  font-size: 30px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+.contact-column2 {
+  position: relative;
+  min-width: 90%;
+  text-align: center;
+  right: 7rem;
+  font-weight: 500;
+}
+
+.contact-column2 .contact-links a {
+  display: flex;
+  flex-direction: column;
+  color: #000;
+  font-size: 1.8rem;
+  padding-top: 1rem;
+}
+
+.contact-column2 .contact-links a:nth-child(2) {
+  color: #e00000;
+  text-decoration: underline;
+}
+
+.contact-column2 .contact-logo {
+  width: 100%;
+  max-width: 29rem;
+}
+
+.contact-column2 .contact-text {
+  margin-top: 4rem;
+}
+
+.contact-column2 .mail-to {
+  margin-top: 4rem;
+}
+
+footer {
+  background-color: #4a4a4a;
+  color: #bbb;
+  line-height: 1.5;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  width: 80%;
+}
+
+.ft-main-item {
+  padding: 1.25rem;
+  min-width: 50%;
+}
+
+.ft-main-item .input {
+  position: absolute;
+  left: -5000px;
+}
+
+.ft-left,
+.ft-middle {
+  border-right: solid 1px #868686;
+}
+
+.copyright-m {
+  display: none;
+}
+
+.ft-left {
+  min-width: 56%;
+}
+
+.ft-left .ft-text {
+  font-size: 1.4rem;
+  padding-bottom: 2rem;
+  color: #fff;
+}
+
+.ft-left .copyright h6 {
+  font-size: 1.2rem;
+  color: #fff;
+  font-weight: 200;
+}
+
+.ft-left input {
+  background: transparent;
+  border-radius: 0px;
+  border: none;
+  border-top-color: currentcolor;
+  border-top-style: none;
+  border-top-width: medium;
+  border-bottom-color: currentcolor;
+  border-bottom-style: none;
+  border-bottom-width: medium;
+  border-top: solid 1px #fff;
+  border-bottom: solid 1px #fff;
+  color: #fff;
+  margin-right: -0.5rem;
+  height: 4.8rem;
+}
+
+.ft-left input[name="subscribe"] {
+  background: #e00000;
+  color: #fff;
+  border: solid 1px #e00000;
+  padding: 1rem 2rem;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.ft-middle {
+  text-align: center;
+  min-width: 30%;
+}
+
+.ft-middle .icon {
+  height: 3.5rem;
+}
+
+.ft-right {
+  font-size: 1.4rem;
+}
+
+.ft-right .faq {
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.ft-right .incognito {
+  position: relative;
+  text-align: center;
+  margin-top: 1.5rem;
+  right: 13rem;
+}
+
+.ft-right .incognito .incognito-style {
+  text-decoration: none;
+  color: #fff;
+}
+
+.ft-right ul a:hover {
+  text-decoration: underline;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 62.5% -> 1rem = 10px */
+html {
+  font-size: 62.5%;
+  font-family: sans-serif;
+  line-height: 1.42;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+h4,
+h5,
+h6 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 3rem;
+  line-height: 3rem;
+  margin: 0;
+  padding: 2.5rem 1rem;
+  color: #e00000;
+}
+
+p {
+  color: black;
+  font-size: 1.8rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  transform: translate(-30%, 5%);
+}

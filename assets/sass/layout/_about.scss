@@ -1,0 +1,54 @@
+/// IMPORTS ///
+@import "../libs/mixins";
+/// IMPORTS ///
+
+.about {
+  padding-top: 12.5rem;
+}
+.mobile-about {
+  display: none;
+}
+.bg-bike-phone {
+  background-image: url("/images/despre-ape.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 10%;
+  width: 1196px;
+  height: 460px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  .h3-first {
+    @include flex(row, center);
+    position: relative;
+    bottom: 18rem;
+  }
+  .h3-second {
+    position: relative;
+    bottom: 17rem;
+    left: 1rem;
+  }
+  //text column 1
+  .col-1 {
+    position: absolute;
+    width: 50%;
+    left: 2rem;
+    bottom: 66rem;
+    font-weight: 510;
+  }
+  //text column 2
+  .col-2 {
+    position: absolute;
+    left: 81rem;
+    width: 48%;
+    bottom: 63.5rem;
+    font-weight: 510;
+  }
+}
+.banner-bcr {
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  min-height: 275px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 3rem;
+}

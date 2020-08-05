@@ -1,0 +1,58 @@
+/// IMPORTS ///
+@import "../libs/mixins";
+@import "../libs/vars";
+/// //// ///
+
+header {
+  background: $primary-bg;
+  height: 7.5rem;
+}
+
+//NAVIGATION
+
+nav {
+  @include flexCenter(row, center);
+  &.container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    transform: translate(-9%, 0);
+    width: 900px;
+  }
+  .logo {
+    @include flexCenter(column, center);
+    position: relative;
+    align-items: center;
+    transform: translate(-40%, 5%);
+    .brand {
+      padding: 1rem 1.5rem 0 1.5rem;
+      img {
+        height: 4.5rem;
+      }
+    }
+    .pegas {
+      background: $primary-bg;
+      color: #fff;
+      border-radius: 0px 0px 20px 20px;
+      padding: 0.3rem 1.5rem;
+      img {
+        height: 2.5rem;
+      }
+    }
+  }
+  .nav-links {
+    @include flexCenter(row, center);
+    position: relative;
+    bottom: 0.9rem;
+    right: 6rem;
+    a {
+      color: #fff;
+      font-size: 1.8rem;
+      font-style: italic;
+      padding-left: 3rem;
+      &:first-child {
+        padding-left: 0;
+        font-weight: bold;
+      }
+    }
+  }
+}

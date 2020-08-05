@@ -1,0 +1,528 @@
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0);
+  }
+  .nav ul {
+    display: none;
+  }
+  .nav .logo {
+    transform: translate(-110%, 5%);
+  }
+  .banner .desktop-banner {
+    display: none;
+  }
+  .banner .mobile-banner {
+    display: block;
+  }
+  .about {
+    padding-top: 0;
+  }
+  .about .mobile-about {
+    display: block;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about .mobile-about img {
+    display: block;
+    height: 28rem;
+    width: 62vw;
+  }
+  .about .mobile-about .about-mtitle {
+    text-align: center;
+    width: 70%;
+    margin: 0 0 5rem 0;
+  }
+  .bg-bike-phone {
+    display: block;
+    height: 30rem;
+    width: 100vw;
+    background-position: left;
+  }
+  .bg-bike-phone .h3-first {
+    display: none;
+  }
+  .bg-bike-phone .h3-second {
+    position: relative;
+    bottom: 8rem;
+    text-align: center;
+    left: 0;
+  }
+  .bg-bike-phone .col-1 {
+    position: absolute;
+    width: 83%;
+    left: 2rem;
+    bottom: 19rem;
+  }
+  .bg-bike-phone .col-2 {
+    position: absolute;
+    left: 81rem;
+    width: 48%;
+    bottom: 63.5rem;
+    font-weight: 510;
+  }
+  .banner-bcr {
+    background-repeat: unset;
+    background-size: unset;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    min-height: 0;
+  }
+  .banner-bcr img {
+    display: block;
+    height: 8rem;
+    width: 100vw;
+  }
+  .info {
+    text-align: center;
+  }
+  .banner-info {
+    display: none;
+  }
+  .info-mobile {
+    display: block;
+  }
+  .price .price-title {
+    text-align: center;
+  }
+  .price .mobile-price {
+    display: block;
+  }
+  .price .desktop-price {
+    display: none;
+  }
+  .call-to-action,
+  .download {
+    display: none;
+  }
+  .bg-descarca {
+    background-image: url("/images/descarca-banner-small.jpg");
+    background-color: #fed100;
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    min-height: auto;
+    display: block;
+  }
+  .bg-descarca .mobile-bg-yellow {
+    background: rgba(255, 209, 1, 0.7);
+  }
+  .bg-descarca .action-mobile {
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  .bg-descarca .action-mobile .actionlinks-m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .bg-descarca .action-mobile .text-m {
+    font-size: 1.8rem;
+    font-weight: 550;
+    padding-bottom: 3rem;
+  }
+  .bg-descarca .action-mobile .hand-space-m {
+    padding: 2.5rem 0;
+  }
+  .bg-descarca .action-mobile .text-grey {
+    font-size: 1.4rem;
+    color: #484848;
+    font-weight: 300;
+    line-height: 1.3rem;
+  }
+  .bg-descarca .text-red {
+    font-weight: 400;
+  }
+  .allianz,
+  .instructions,
+  .slide {
+    display: none;
+  }
+  .title-contact {
+    text-align: center;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: left;
+  }
+  .contact.container {
+    transform: translate(1%);
+  }
+  .contact .form-grey label {
+    text-align: left;
+  }
+  .contact .form-grey input,
+  .contact .form-grey textarea {
+    min-width: 98%;
+  }
+  .contact .button-red {
+    margin-left: 8rem;
+  }
+  .contact .contact-column2 {
+    right: 1.5rem;
+  }
+  .footer-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .footer-row .ft-middle,
+  .footer-row .ft-left {
+    border: none;
+  }
+  .icon {
+    width: auto;
+  }
+  .ft-right .incognito {
+    right: 0;
+    width: 120%;
+  }
+  .ft-right .incognito img {
+    width: auto;
+  }
+  .copyright-m {
+    display: block;
+  }
+  .copyright-m p {
+    padding-top: 1rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    color: #fff;
+  }
+}
+
+@media screen and (min-width: 424px) and (max-width: 767px) {
+  .nav .logo {
+    transform: translate(-85%, 5%);
+  }
+  .bg-bike-phone .col-1 {
+    position: absolute;
+    width: 83%;
+    left: 2rem;
+    bottom: 28rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-2%);
+  }
+  .nav ul {
+    margin-left: 5rem;
+    display: flex;
+  }
+  .nav .logo {
+    transform: translate(0%, 5%);
+  }
+  .nav .logo .brand img {
+    height: 3.5rem;
+    width: 80%;
+  }
+  .nav .pegas {
+    transform: translate(260%, 0);
+  }
+  .nav .nav-links a {
+    font-size: 1.4rem;
+  }
+  .banner .desktop-banner {
+    display: block;
+  }
+  .banner .mobile-banner {
+    display: none;
+  }
+  .about {
+    padding-top: 0;
+  }
+  .about .mobile-about {
+    display: none;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about .mobile-about img {
+    display: none;
+  }
+  .about .mobile-about .about-mtitle {
+    text-align: center;
+    width: 70%;
+    margin: 0 0 5rem 0;
+  }
+  .bg-bike-phone {
+    display: block;
+    height: 30rem;
+    width: 100vw;
+    background-position: left;
+  }
+  .bg-bike-phone .h3-first {
+    display: none;
+  }
+  .bg-bike-phone .h3-second {
+    position: relative;
+    bottom: 8rem;
+    text-align: center;
+    left: 0;
+  }
+  .bg-bike-phone .col-1 {
+    position: absolute;
+    width: 83%;
+    left: 2rem;
+    bottom: 37rem;
+  }
+  .bg-bike-phone .col-2 {
+    display: none;
+  }
+  .banner-bcr {
+    background-repeat: unset;
+    background-size: unset;
+    padding-top: 3rem;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    min-height: 0;
+  }
+  .banner-bcr img {
+    display: block;
+    height: 17rem;
+    width: 100vw;
+  }
+  .info {
+    text-align: center;
+  }
+  .info.container {
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0);
+  }
+  .banner-info {
+    display: block;
+  }
+  .banner-info img {
+    width: 100%;
+    height: auto;
+  }
+  .info-mobile {
+    display: none;
+  }
+  .price {
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0);
+  }
+  .price .price-title {
+    text-align: center;
+  }
+  .price .mobile-price {
+    display: none;
+  }
+  .price .desktop-price {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .allianz {
+    width: 100%;
+    height: auto;
+  }
+  .instructions img {
+    width: 100%;
+    height: auto;
+  }
+  .slide img {
+    width: 100%;
+    height: auto;
+  }
+  .title-contact {
+    text-align: center;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
+  .contact .contact-column1 {
+    min-width: 75%;
+  }
+  .contact .contact-column2 {
+    right: 1.5rem;
+    min-width: 20%;
+  }
+  .footer-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 10rem;
+  }
+  .icon {
+    width: auto;
+  }
+  .ft-left {
+    min-width: 60%;
+  }
+  .ft-right .incognito {
+    right: 0;
+    width: 80%;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1170px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(-18%);
+  }
+  .nav ul {
+    margin-left: 15rem;
+    display: flex;
+  }
+  .nav .logo {
+    transform: translate(60%, 5%);
+  }
+  .nav .logo .brand img {
+    height: 3.5rem;
+    width: 80%;
+  }
+  .nav .pegas {
+    transform: translate(280%, 0);
+  }
+  .nav .nav-links a {
+    font-size: 1.4rem;
+  }
+  .about {
+    padding-top: 0;
+  }
+  .about .mobile-about {
+    display: none;
+    margin-bottom: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .about .mobile-about img {
+    display: none;
+  }
+  .about .mobile-about .about-mtitle {
+    position: relative;
+    left: 18rem;
+    margin: 0 0 5rem 0;
+  }
+  .bg-bike-phone .h3-first {
+    display: none;
+  }
+  .bg-bike-phone .h3-second {
+    position: relative;
+    bottom: 8rem;
+    text-align: left;
+    left: 0;
+  }
+  .bg-bike-phone .col-1 {
+    position: absolute;
+    width: 83%;
+    left: 2rem;
+    bottom: 37rem;
+  }
+  .bg-bike-phone .col-2 {
+    display: none;
+  }
+  .info {
+    text-align: center;
+  }
+  .info.container {
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0);
+  }
+  .banner-info {
+    display: block;
+  }
+  .banner-info img {
+    width: 100%;
+    height: auto;
+  }
+  .info-mobile {
+    display: none;
+  }
+  .price {
+    margin-left: auto;
+    margin-right: auto;
+    transform: translate(0);
+  }
+  .price .price-title {
+    text-align: center;
+  }
+  .price .desktop-price {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .allianz {
+    width: 78%;
+    height: auto;
+  }
+  .instructions img {
+    transform: translate(17%);
+    width: 100%;
+    height: auto;
+  }
+  .slide img {
+    transform: translate(17%);
+    width: 100%;
+    height: auto;
+  }
+  .title-contact {
+    text-align: center;
+  }
+  .contact {
+    margin-left: 20rem;
+  }
+  .contact .contact-column1 {
+    min-width: 85%;
+  }
+  .contact .contact-column2 {
+    min-width: 30%;
+  }
+  .ft-left {
+    min-width: 50%;
+  }
+}

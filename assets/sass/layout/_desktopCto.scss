@@ -1,0 +1,34 @@
+/// IMPORTS ///
+@import "../libs/mixins";
+/// IMPORTS ///
+
+.call-to-action {
+  @include flexCenter(column, center);
+  position: absolute;
+  top: 5rem;
+  left: 8rem;
+  width: 65%;
+  .hand-space-m {
+    line-height: 3rem;
+    width: 115%;
+    text-align: center;
+  }
+  .hand-space-m2 {
+    margin-bottom: 3rem;
+  }
+  h3 {
+    font-weight: 500;
+  }
+  h5 {
+    font-size: 1.4rem;
+    font-weight: 300;
+    line-height: 1.4rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    width: 120%;
+  }
+}
+//Hide on mobile
+.bg-descarca {
+  display: none;
+}
